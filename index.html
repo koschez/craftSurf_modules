@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Show route only after all promises are resolved</title>
+  <script type="text/javascript" src="assets/libs/angular-1.1.5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity=" sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script type="text/javascript" src="app.module.js"></script>
+  <script type="text/javascript" src="app.routes.js"></script>
+  <script type="text/javascript" src="components/login/loginController.js"></script>
+  <script type="text/javascript" src="components/user/userController.js"></script>
+  <script type="text/javascript" src="components/user/userService.js"></script>
+</head>
+<body>
+  
+  <div ui-view></div>
+
+</body>
+</html>
